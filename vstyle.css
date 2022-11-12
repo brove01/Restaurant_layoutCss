@@ -1,0 +1,278 @@
+/*les liens*/
+a:link{
+    color:rgb(244, 95, 26) ;
+    font-size: 20px;
+    letter-spacing: 5px;
+    word-wrap: break-word;
+    text-decoration:solid;
+    
+    
+}
+a:hover{
+    color: rgb(17, 251, 0);
+    font-size: 25px;
+}
+a:active{
+    color: rgb(7, 122, 24);
+    font-size: 15px;
+}
+a:visited{
+    color:rgb(241, 181, 169) ;
+}
+
+
+/*type background*/
+body{
+    background-color: rgba(3, 3, 3, 0.943);
+}
+nav{
+    
+    background-color:rgba(170, 124, 88, 0.568);
+    height: 55px;
+    width: 100%;
+    padding-top: 10px;
+
+    margin-top: 245px;
+    
+    text-align: center;
+    word-spacing: 100px;
+}
+img{
+  width: 400px;
+  height: 400px; 
+  border: 2px solid orange;
+  padding:4px ;
+  margin-left: 40px;
+}
+div{
+    display:block ;
+    margin-top:70px;
+    margin-left:40px;
+    margin-right:40px;
+
+    border: 1px ;
+}
+dl{
+    color: azure;
+    text-align:center;
+
+}
+header{
+    width: 100%;
+    height: 700px;
+    background:url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg");
+    
+    border: 2px solid orange ;
+    padding: 4px;
+}
+section{
+
+    text-align: center;
+    margin-top:70px;
+    
+    
+   
+}
+article{
+    text-align: center;
+    margin-top:70px;
+    
+}
+footer{
+    
+    background:url("https://bottlebrothers.ch/wp-content/uploads/2014/05/boards-black-line-texture-background-wood-wallpaper-wood-texture-wallpapers.jpg");
+    width: 100%;
+    height: 400px;
+    text-align:center;
+    
+}
+table{
+   
+    border: 2px solid orange;
+    text-align:center;
+}
+iframe{
+    width: 400px;
+    height: 230px; 
+    border: 2px solid orange;
+    padding:4px ;
+}
+th{
+    color: orange;
+    font-size: 30px;
+
+}
+tr{
+    color: orange;
+    
+
+}
+/*classe background*/
+.box:link{
+    
+    color:rgb(246, 141, 5) ;
+    font-weight:bolder;
+    text-decoration:dashed;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+}
+.box:hover{
+    color: rgb(244, 205, 11);
+    font-size: 45px;
+}
+.box:active{
+    color: rgb(99, 148, 6);
+    font-size: 35px;
+}
+.lin{
+    display: inline-block;
+    margin-bottom: 100px;
+    text-align: left;
+    
+ 
+}
+/*id background*/
+
+
+#iml1{
+    margin-top:100px;
+    border: 4px solid orange;
+    color: rgb(176, 69, 19);
+    font-weight: bolder;
+    font-size: 80px;
+    padding-top:100px;
+    text-align: center;
+    background:url("https://peddlersvillage.com/wp-content/uploads/2021/12/IMG_8703-scaled-e1640890304211.jpg");
+    width: 2000px;
+    height: 250px;
+}
+#iml2{
+    margin-top:100px;
+    border: 4px solid orange;
+    font-weight: bolder;
+    color: rgb(97, 0, 233);
+    font-size: 80px;
+    padding-top:100px;
+    text-align: center;
+    background:url("http://extension.msstate.edu/sites/default/files/styles/feature/public/news/2018/sg20180723_giant.jpg?itok=pk1FwgUA");
+    width: 100%;
+    height: 250px;
+}
+#iml3{
+    margin-top:100px;
+    border: 4px solid orange;
+    font-weight: bolder;
+    color: rgb(195, 45, 45);
+    font-size: 80px;
+    padding-top:100px;
+    text-align: center;
+    background:url("https://production-new-commonwealth-files.s3.eu-west-2.amazonaws.com/s3fs-public/styles/hero_banner/public/2022-02/Sea%20of%20voices.jpg?VersionId=uBOa1m.oV_JzzEyluTgNKgbrVkTa3eVG&itok=O36pXJSq");
+    width: 100%;
+    height: 250px;
+}
+#iml4{
+    margin-top:100px;
+    border: 4px solid orange;
+    font-weight: bolder;
+    color: rgb(132, 11, 136);
+    font-size: 80px;
+    padding-top:100px;
+    text-align: center;
+    background:url("https://licoresources.com/wp-content/uploads/2012/01/Autumn-Wallpapers-12.jpg");
+    width: 100%;
+    height: 250px;
+}
+/*type text*/
+p{
+    color:azure ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    font-size: 25px;
+}
+dt {
+    font-size: 25px;
+    text-align: center;
+
+}
+ol{
+    
+    color:azure ;
+}
+ul{
+    
+    color:azure ;
+}
+h1{
+    color:orange ;
+    font-size: 40px;
+    font-style: oblique;
+}
+h2{
+    color: azure;
+    text-decoration:underline;
+}
+h3{ 
+    color:orange;
+}
+button{
+    background-color: black;
+    margin-left: 40px;
+}
+/*class text*/
+.bc{
+    color:azure ;
+    font-size: 200px;
+    font-family:cursive ;
+    font-style:oblique;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: solid;
+}
+input{
+    color: rgb(186, 68, 4);
+    border: 1px solid orange;
+     
+ }
+
+/*id text*/
+#wel{
+    color:azure;
+    font-size: 30px;
+    font-family:cursive ;
+    font-style:oblique;
+    font-weight:bold;
+    text-align: left;
+    
+}
+
+
+
+footer>dl{
+    padding-left: 0%;
+    margin-top:30px;
+    margin-right: 100px;
+    font-weight: bolder;
+    
+    display: inline-block;
+    color:rgb(186, 68, 4);
+}
+dd>ul{
+    color: rgb(186, 68, 4);
+    padding-left: 0%;
+}
+footer h1{
+    color: rgb(250, 250, 250);
+    background-color:  rgb(186, 68, 4);
+    
+    font-size:65px;
+    font-family: cursive;
+}
+
+footer p{
+    font-size:20px;
+}
+.lin>dd{
+    text-align: left;
+}
