@@ -1,0 +1,42 @@
+.flexy{
+    display: flex;
+}
+.flexy1{
+    flex-direction:;
+}
+.flexy2{
+    justify-content: ;
+}
+.flexy3{
+    flex-wrap: ;
+}
+.flexy4{
+   align-items: ;
+}
+.flexy5{
+    align-content: ;
+}
+.flexy6{
+    position: ;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}
+.iteam{
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    grid-row-end: ;
+    justify-self:;
+}
+@media screen and () {
+    
+}
+@font-face{
+
+}
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">/*make it in every head of pages.htmls for awsom font icons*/
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">/*make it in every head of pages.htmls Bootstrap*/
+/*remember to fix and study carfuly the two lasts dyapo in css layout Bootstrap grid system and classes*/
